@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 10px;
+}
+
+body {
+  background: rgb(144, 145, 240);
+}
+
+h1 {
+  padding: 10px;
+}
+
+div {
+  padding: 10px;
+}
