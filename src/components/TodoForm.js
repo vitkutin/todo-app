@@ -3,11 +3,11 @@ import React, { useState } from "react";
 function TodoForm(props) {
   const [input, setInput] = useState("");
 
-  const handleChange = (e) => {
-    setInput(e.target.value);
+  const handleChange = (event) => {
+    setInput(event.target.value);
   };
-  const handleSubmit = (e) => {
-    e.preventDefault();
+  const handleSubmit = (event) => {
+    event.preventDefault();
 
     props.onSubmit({
       id: Math.floor(Math.random() * 1000),
