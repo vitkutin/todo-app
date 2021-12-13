@@ -1,17 +1,21 @@
+/* eslint-disable no-unused-vars */
 import React from "react";
 import { ReactDOM, render } from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import TodoApp from "./TodoApp";
-import Yucca from "./routes/Yucca";
-import EnglishIvy from "./routes/EnglishIvy";
+import App from "./App";
+import Todo from "./routes/todo";
+import Archive from "./routes/archive";
+import Info from "./routes/info";
+import "./App.css";
 
 const rootElement = document.getElementById("root");
 render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<TodoApp />}>
-        <Route path="yucca" element={<Yucca />} />
-        <Route path="englishivy" element={<EnglishIvy />} />
+      <Route path="/" element={<App />}>
+        <Route path="Todo" element={<Todo />} />
+        <Route path="Archive" element={<Archive />} />
+        <Route path="Info" element={<Info />} />
       </Route>
     </Routes>
   </BrowserRouter>,
