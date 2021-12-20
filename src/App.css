@@ -37,7 +37,18 @@ h1 {
 
 input {
   width: 90px;
-  height: 15px;
+  height: 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-width: 1px;
+}
+
+#submit {
+  height: 20px;
+  background-color: #623bbd;
+  border: none;
+  border-radius: 1px;
+  color: white;
 }
 
 .item-container {

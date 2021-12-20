@@ -125,7 +125,9 @@ function Todo() {
             onChange={handleInputChange}
             placeholder="Tag"
           />
-          <button type="submit">Add task</button>
+          <button id="submit" type="submit">
+            Add task
+          </button>
         </form>
       </div>
 
@@ -138,7 +140,9 @@ function Todo() {
             onChange={handleInputChange}
             placeholder="Filter by tag"
           />
-          <button type="submit">Filter</button>
+          <button id="submit" type="submit">
+            Filter
+          </button>
         </form>
       </div>
       {/* List */}
