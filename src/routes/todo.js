@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { FaRegTrashAlt, FaEdit, FaAngleDown, FaAngleUp } from "react-icons/fa";
+import Button from "@mui/material/Button";
 
 function Todo() {
   //Clears textfield after input
@@ -108,6 +109,7 @@ function Todo() {
       <div className="form-container">
         <form onSubmit={handleSubmit}>
           <input
+            id="date-form"
             name="date"
             value={input.date}
             onChange={handleInputChange}
@@ -117,17 +119,17 @@ function Todo() {
             name="description"
             value={input.description}
             onChange={handleInputChange}
-            placeholder="Description"
+            placeholder="Description..."
           />
           <input
             name="tag"
             value={input.tag}
             onChange={handleInputChange}
-            placeholder="Tag"
+            placeholder="Tag..."
           />
-          <button id="submit" type="submit">
+          <Button variant="contained" id="submit" type="submit">
             Add task
-          </button>
+          </Button>
         </form>
       </div>
 
@@ -138,11 +140,11 @@ function Todo() {
             name="search"
             value={input.search}
             onChange={handleInputChange}
-            placeholder="Filter by tag"
+            placeholder="Filter by tag..."
           />
-          <button id="submit" type="submit">
+          <Button variant="contained" id="submit" type="submit">
             Filter
-          </button>
+          </Button>
         </form>
       </div>
       {/* List */}

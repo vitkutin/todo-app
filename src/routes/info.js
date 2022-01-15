@@ -29,10 +29,10 @@ export default function Info() {
           vastaa syötettyä tekstiä.
         </p>
         <p>Tehtävän voi poistaa listalta roskakori-painikkeella.</p>
-        <h2>Tulevat ominaisuudet:</h2>
+
         <p>
-          Archive-sivulta löytyy lista hoidetuista tehtävistä. Huom: tällä
-          hetkellä sivulla näkyy esimerkkilista.
+          Luodut muutokset eivät tallennu mihinkään, ja lista palautuu
+          alkutilaansa päivittämällä sivun.
         </p>
       </div>
       <div class="licence-box">

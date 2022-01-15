@@ -4,7 +4,6 @@ import { ReactDOM, render } from "react-dom";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import Todo from "./routes/todo";
-import Archive from "./routes/archive";
 import Info from "./routes/info";
 import "./App.css";
 
@@ -14,7 +13,6 @@ render(
     <Routes>
       <Route path="/" element={<App />}>
         <Route path="Todo" element={<Todo />} />
-        <Route path="Archive" element={<Archive />} />
         <Route path="Info" element={<Info />} />
       </Route>
     </Routes>

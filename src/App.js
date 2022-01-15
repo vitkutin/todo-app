@@ -6,7 +6,6 @@ export default function App() {
     <div>
       <nav>
         <Link to="/todo">TODO</Link>
-        <Link to="/archive">ARCHIVE</Link>
         <Link to="/info">INFO</Link>
       </nav>
       <Outlet />
