@@ -17,3 +17,5 @@ Tehtävän voi poistaa listalta roskakori-painikkeella.
 # Gif 
 
 ![Alt](https://github.com/vitkutin/Todo-app/blob/master/todogif1.gif)
+![Alt](https://github.com/vitkutin/Todo-app/blob/master/todogif2.gif)
+![Alt](https://github.com/vitkutin/Todo-app/blob/master/todogif3.gif)
