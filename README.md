@@ -13,9 +13,11 @@ This project was made as the final project work for a frontend development cours
 
 # How to use?
 
-Navigate to TODO. To create a new task, select the date and write a short description of the task and add an appropriate tag. Press SUBMIT.
+Navigate to TODO. To create a new task, select the date and write a short description of the task and add an appropriate tag. Press ADD TASK.
 
 Your task will show up in the list. You can edit the task by pressing the pen icon, and delete it by pressing the trash icon. The arrows allow you to change the order of your list.
+
+You can filter the list by writing the wanted tag into "Filter the tag" field and pressing FILTER.
 
 Since this is only an user interface, the changes you make will not be saved anywhere. Refresh the page to reset the list.
 
