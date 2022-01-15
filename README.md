@@ -1,4 +1,4 @@
-#Todo App
+# Todo App
 
 This is my first frontend project, an app for keeping track of the day's tasks.
 The app is implemented with React.
