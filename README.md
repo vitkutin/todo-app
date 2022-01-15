@@ -1,20 +1,27 @@
-# Käyttöohjeet:
+#Todo App
 
-Aloitusnäkymässä on mahdollista valita haluamansa sivu. Todo-sivu toimii seuraavalla tavalla:
+This is my first frontend project, an app for keeping track of the day's tasks.
+The app is implemented with React.
 
-Todo-listaan voi lisätä tulevia tehtäviä. Tehtävään on mahdollista merkata päivämäärä, kuvaus sekä tagi, johon tehtävä liittyy, esim. "kotityöt" tai "koulu." Risuaitaa ei tarvitse kirjoittaa. Päivämäärä valitaan kalenterista. Kuvaus ja tagi kirjoitetaan tekstikenttiin vapaasti. Lista sisältää alkutilassaan yhden esimerkkitehtävän.
+# Heroku
+Check this app out on Heroku: https://ndhiha-todo-app.herokuapp.com/todo
 
-Add task -painiketta painamalla tehtävä siirtyy listalle.
+# Motivation
 
-Tehtävän kuvausta voi muokata kynä-painikkeella.
+I study Business information systems at TAMK.
+This project was made as the final project work for a frontend development course.
 
-Tehtäviä voi siirtää listalla ylös tai alas nuolipainikkeiden avulla.
+# How to use?
 
-Listaa on mahdollista filtteröidä kirjoittamalla haluttu tagi täsmällisesti filter by tag-lomakkeeseen (risuaitaa ei tarvitse kirjoittaa). Tällöin listassa näkyvät vain ne elementit, joiden tagi vastaa syötettyä tekstiä.
+Navigate to TODO. To create a new task, select the date and write a short description of the task and add an appropriate tag. Press SUBMIT.
 
-Tehtävän voi poistaa listalta roskakori-painikkeella.
+Your task will show up in the list. You can edit the task by pressing the pen icon, and delete it by pressing the trash icon. The arrows allow you to change the order of your list.
 
-# Gif 
+Since this is only an user interface, the changes you make will not be saved anywhere. Refresh the page to reset the list.
+
+INFO contains user instructions in finnish.
+
+# Gif demonstration
 
 ![Alt](https://github.com/vitkutin/Todo-app/blob/master/todogif1.gif)
 ![Alt](https://github.com/vitkutin/Todo-app/blob/master/todogif2.gif)
