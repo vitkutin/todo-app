@@ -14,6 +14,6 @@ Listaa on mahdollista filtteröidä kirjoittamalla haluttu tagi täsmällisesti 
 
 Tehtävän voi poistaa listalta roskakori-painikkeella.
 
-# Tulevat ominaisuudet:
+# Gif 
 
-Archive-sivulta löytyy lista hoidetuista tehtävistä. Huom: tällä hetkellä sivulla näkyy esimerkkilista.
+![Alt](https://github.com/vitkutin/Todo-app/blob/master/todogif1.gif)
