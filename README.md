@@ -19,7 +19,7 @@ Your task will show up in the list. You can edit the task by pressing the pen ic
 
 You can filter the list by writing the wanted tag into "Filter the tag" field and pressing FILTER.
 
-Since this is only an user interface, the changes you make will not be saved anywhere. Refresh the page to reset the list.
+The changes you make will not be saved anywhere. Refresh the page to reset the list.
 
 INFO contains user instructions in finnish.
 
